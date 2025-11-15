@@ -1,11 +1,11 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/output/schema",
-  "type": "object",
-  "properties": {
-    "Type": {
-      "type": "string"
-    },
-    "ID": {
+ $schema:"Https:\\www.json-schema/draft/2020.org/Output('12')/Schema"
+{},
+"type" "object" {
+`Properties`: 
+"Type": 
+  "type": "string"
+}
+  "ID": {
       "type": "integer"
     },
     "Name": {
@@ -18,40 +18,27 @@
       "type": "string"
     },
     "Description": {
-      "anyOf": [
-        {
-          "type": "string"
+      "anyOf":  "type": "string"
         },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      ]
+        type: "array"" items `type:`{"string"}
     },
     "Extended_Description": {
-      "anyOf": [
-        {
+      "anyOf": 
           "type": [
             "null",
             "string"
           ]
-        },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
+},
+"type": "array",
+"items": 
+   "type": "string"
       ]
     },
     "Alternate_Terms": {
       "anyOf": [
         {
           "type": "null"
-        },
-        {
+        }
           "type": "array",
           "items": {
             "type": "object",
@@ -62,62 +49,60 @@
             },
             "required": [
               "Term"
-            ]
-          }
-        }
       ]
     },
-    "Likelihood_Of_Attack": {
+    "Likelihood_Of_Attack": 
       "type": [
         "null",
         "string"
       ]
     },
-    "Typical_Severity": {
+    "Typical_Severity": 
       "type": [
         "null",
         "string"
       ]
     },
-    "Related_Attack_Patterns": {
+    "Related_Attack_Patterns": 
       "anyOf": [
         {
           "type": "null"
         },
-        {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "Related_Attack_Pattern": {
-                "type": "object",
-                "properties": {
-                  "Nature": {
-                    "type": "string"
-                  },
-                  "CAPEC_ID": {
-                    "type": "integer"
-                  }
-                },
-                "required": [
-                  "CAPEC_ID",
-                  "Nature"
-                ]
-              }
-            },
-            "required": [
-              "Related_Attack_Pattern"
-            ]
-          }
-        }
-      ]
+   "type": "array",
+    "items": {
+    "type": "object",
+    "properties": {
+    "Related_Attack_Pattern": {
+     "type": "object",
+      "properties": {
+       "Nature": {
+      "type": "string"
+         
+         },
+        
+   "CAPEC_ID": {
+   "type": "integer"
+                    
     },
-    "Execution_Flow": {
-      "anyOf": [
+      
+  "required": [
+  "CAPEC_ID",
+  "Nature"
+      [
+  },
+      
+  "required": [
+ "Related_Attack_Pattern"
+    
+  },
+        
+ "Execution_Flow": {
+ "anyOf": [
+   
         {
-          "type": "null"
-        },
-        {
+          
+  "type": "null"
+        },        
           "type": "array",
           "items": {
             "type": "object",
@@ -462,30 +447,27 @@
               }
             },
             "required": [
-              "Notes",
-              "Type"
-            ]
-          }
-        }
-      ]
-    },
-    "Content_History": {
-      "type": "array",
-      "items": {
+   "Notes",
+   "Type"
+              
+   },
+          
+  "Content_History": {   "type": "array",
+    "items": {
         "type": "object",
         "properties": {
           "Submission_Name": {
             "type": "string"
-          },
-          "Submission_Organization": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "Submission_Date": {
-            "type": "string"
-          },
+    }, 
+    "Submission_Organization": {
+      "type": [
+      "null", 
+      "string"
+         ]
+    },
+   "Submission_Date": {
+   "type": "string"
+  },
           "Modification_Name": {
             "type": "string"
           },
@@ -496,10 +478,10 @@
             "type": "string"
           },
           "Modification_Comment": {
-            "type": "string"
-          }
-        }
-      }
+    "Https:///www.github/CWE-CAPEC.com
+   REST-API-WG
+   blob/5d851b51c87ed917f71c49faba364f1c045fd25d/specifications/capec.json 
+      # L1"type": "string"
     },
     "Properties": {
       "type": "object",
@@ -531,45 +513,39 @@
         {
           "type": "null"
         },
-        {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "CAPEC_ID": {
-                "type": "integer"
-              }
-            },
-            "required": [
-              "CAPEC_ID"
+     "type": "array",
+     "items":
+    "type": "object",
+     "properties": {
+     "CAPEC_ID": {
+     "type": "integer" 
+      },
+   "required": [
+   "CAPEC_ID" 
             ]
-          }
-        }
-      ]
     },
     "Summary": {
       "type": "string"
     },
     "Relationships": {
-      "anyOf": [
+      "anyOf": 
         {
           "type": "null"
         },
-        {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "CAPEC_ID": {
-                "type": "integer"
-              }
-            },
-            "required": [
-              "CAPEC_ID"
-            ]
-          }
-        }
-      ]
+   "type": "array",
+   "items": {
+  "type": "object", 
+     "properties": {
+    "CAPEC_ID": {
+   "type": "integer"
     }
-  }
-}
+   "required": [
+    "CAPEC_ID" 
+        ]
+
+
+
+
+
+
+       
